@@ -1,4 +1,4 @@
-//package servlet;//package servlet;
+package servlet;
 
 //import DAOs.DataDAO;
 
@@ -7,6 +7,7 @@
 import DAOs.UsersDAO;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import servlet.MyClass2;
+import utils.FileLogger;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
