@@ -86,7 +86,14 @@
         <servlet-name>thingServlet</servlet-name>
         <url-pattern>/things/*</url-pattern>
     </servlet-mapping>
-
+    <servlet>
+        <servlet-name>htmlDataServlet</servlet-name>
+        <servlet-class>servlet.HTMLDataServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>htmlDataServlet</servlet-name>
+        <url-pattern>/htmldata</url-pattern>
+    </servlet-mapping>
 
 
 </web-app>

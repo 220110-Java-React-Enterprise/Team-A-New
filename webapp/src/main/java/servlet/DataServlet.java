@@ -35,7 +35,8 @@ public class DataServlet extends HttpServlet {
          //initiazlie logging file name
          System.out.println("Constructor of DataServlet");
          //initizlie File Logger
-         String filePath=  "C:\\Users\\ahmed\\IdeaProjects\\ServletProject\\logs\\";
+         //String filePath=  "C:\\Users\\ahmed\\IdeaProjects\\ServletProject\\logs\\";
+         String filePath = "/src/main/resources/WebApp_Exception_Logs";
          File f = new File(filePath);
          try {
              FLogger = FileLogger.getFileLogger(filePath);
@@ -254,7 +255,6 @@ public class DataServlet extends HttpServlet {
             //******************** SHOULD RETURN A STRING/USER OBJECT ****************
             String userData = "";
             Repository<UsersDAO> rs = new Repository<UsersDAO>(new UsersDAO());
-            rs.setBreadCrumbsOn(true);
 
             if (id.getValue() == 0) //get all users
             {
