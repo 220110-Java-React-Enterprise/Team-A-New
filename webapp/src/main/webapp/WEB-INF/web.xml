@@ -36,7 +36,7 @@
             -->
     <servlet>
         <servlet-name>pingServlet</servlet-name>
-        <servlet-class>PingServlet</servlet-class>
+        <servlet-class>servlet.PingServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>pingServlet</servlet-name>
@@ -53,7 +53,7 @@
      -->
     <servlet>
         <servlet-name>dataServlet</servlet-name>
-        <servlet-class>DataServlet</servlet-class>
+        <servlet-class>servlet.DataServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>dataServlet</servlet-name>
@@ -62,7 +62,7 @@
 
     <servlet>
         <servlet-name>jacksonServlet</servlet-name>
-        <servlet-class>JacksonServlet</servlet-class>
+        <servlet-class>servlet.JacksonServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>jacksonServlet</servlet-name>
@@ -71,7 +71,7 @@
 
     <servlet>
         <servlet-name>thingsServlet</servlet-name>
-        <servlet-class>ThingsServlet</servlet-class>
+        <servlet-class>servlet.ThingsServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>thingsServlet</servlet-name>
@@ -80,7 +80,7 @@
 
     <servlet>
         <servlet-name>thingServlet</servlet-name>
-        <servlet-class>ThingsServlet</servlet-class>
+        <servlet-class>servlet.ThingsServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>thingServlet</servlet-name>

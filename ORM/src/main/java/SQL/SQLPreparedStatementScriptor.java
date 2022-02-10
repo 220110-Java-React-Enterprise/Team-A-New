@@ -1,9 +1,16 @@
+package SQL;
+
+import Repository.Column;
+import Repository.Repository;
+import Repository.Table;
+import ORMExceptionLogger.ORMExceptionLogger;
+
 import java.lang.reflect.InvocationTargetException;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 //Class that contains methods that return PreparedStatement objects
-//Using SQLStringScriptor methods to define PreparedStatement SQL statement strings
+//Using SQL.SQLStringScriptor methods to define PreparedStatement SQL statement strings
 public class SQLPreparedStatementScriptor {
     //Method that returns default values depending on type of object passed in
     public static Object getDefaultValueByType(Class c) {

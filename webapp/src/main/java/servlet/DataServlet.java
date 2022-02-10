@@ -5,6 +5,7 @@ package servlet;
 //import DAOs.UsersDAO;
 
 import DAOs.UsersDAO;
+import Repository.Repository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import servlet.MyClass2;
 import utils.FileLogger;
@@ -90,7 +91,6 @@ public class DataServlet extends HttpServlet {
         */
 
         //******** MyJDBC ************
-
 
             Repository<UsersDAO> rs = new Repository<UsersDAO>(new UsersDAO());
             rs.create(u);
@@ -254,6 +254,7 @@ public class DataServlet extends HttpServlet {
             //******************** SHOULD RETURN A STRING/USER OBJECT ****************
             String userData = "";
             Repository<UsersDAO> rs = new Repository<UsersDAO>(new UsersDAO());
+            rs.setBreadCrumbsOn(true);
 
             if (id.getValue() == 0) //get all users
             {

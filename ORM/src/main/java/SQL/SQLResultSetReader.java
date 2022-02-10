@@ -1,3 +1,10 @@
+package SQL;
+
+import Repository.Column;
+import Repository.Repository;
+import Repository.Table;
+import ORMExceptionLogger.ORMExceptionLogger;
+
 import java.lang.reflect.InvocationTargetException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -53,7 +60,7 @@ public class SQLResultSetReader<T> {
 
     //Method to read all primary keys from a result set
     public List<Object> readAllPrimaryKeys(Table table, ResultSet rs, T t) {
-        //Column holding information about this table's primary key field
+        //Repository.Column holding information about this table's primary key field
         Column primaryKeyColumn = table.getPrimaryKeyField();
 
         //List of objects to be returned

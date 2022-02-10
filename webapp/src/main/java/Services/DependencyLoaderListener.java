@@ -1,5 +1,7 @@
 package Services;//package Services;
 
+import utils.FileLogger;
+
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
@@ -12,7 +14,7 @@ import javax.servlet.ServletContextListener;
 public class DependencyLoaderListener implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent sce) {
-
+        FileLogger.getFileLogger().log("Something");
     }
 
     @Override

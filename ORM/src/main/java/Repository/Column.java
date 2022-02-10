@@ -1,3 +1,5 @@
+package Repository;
+
 import Annotations.Getter;
 import Annotations.PrimaryKey;
 import Annotations.Property;
@@ -308,10 +310,10 @@ public class Column {
         return (this.getSetter() == null) ? "null" : this.getSetter().getName();
     }
 
-    //Method to convert Column information to string
+    //Method to convert Repository.Column information to string
     @Override
     public String toString() {
-        return "Column: " + fieldName + ", Class field: " + this.getPropertyString() + ", Getter: " + this.getGetterString() +
+        return "Repository.Column: " + fieldName + ", Class field: " + this.getPropertyString() + ", Getter: " + this.getGetterString() +
                 ", Setter: " + this.getSetterString() + ", is primary key: " + isValidPrimaryKey();
     }
 }

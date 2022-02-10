@@ -6,9 +6,9 @@
 
     <groupId>Ahmad</groupId>
     <artifactId>ServletProject</artifactId>
-    <packaging>war</packaging>
     <version>0.3</version>
     <name>Simple Servlets</name>
+    <packaging>war</packaging>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -37,12 +37,7 @@
             <artifactId>jackson-core</artifactId>
             <version>2.12.3</version>
         </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
-        </dependency>
+
 
 
 
@@ -56,6 +51,11 @@
             <groupId>org.mariadb.jdbc</groupId>
             <artifactId>mariadb-java-client</artifactId>
             <version>2.7.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.revature</groupId>
+            <artifactId>Project1_ORM_GitWorthy</artifactId>
+            <version>0.5</version>
         </dependency>
         <!-- <dependency>
             <groupId>org.example</groupId>

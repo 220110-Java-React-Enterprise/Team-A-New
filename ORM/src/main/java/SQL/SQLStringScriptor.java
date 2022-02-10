@@ -1,4 +1,6 @@
-import java.util.List;
+package SQL;
+
+import Repository.*;
 
 //Class that contains methods to create Strings to define PreparedStatements with
 public class SQLStringScriptor {
