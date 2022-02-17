@@ -1,7 +1,7 @@
 Team Members: 
   -Ahmad Rawashdeh
   -Brian Gardner 
-  -Danial 
+  -Danial Gordon
   
   
 Our project was about a web app which connects to a maria Database hosted on the Amazon Web Service cloud (AWS). 
