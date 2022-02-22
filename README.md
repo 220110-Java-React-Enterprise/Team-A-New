@@ -33,7 +33,7 @@ and led the project into its final version.  However, I wouldn’t have done it 
 
 Also, we had reached Kyle for one problem in pushing to repository and he helped us in that and in following the right steps in importing a jar file. 
 
-below is the given recruitment of project 1. 
+below is the given requirement of project 1. 
 _____________________________________________________________________________________________________________________________________________
 
 
