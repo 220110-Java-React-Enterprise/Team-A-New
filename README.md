@@ -24,8 +24,7 @@ Email: varchar(20).
 
 ## Features
 
-I took the initiative and started my part by building a project that meets the minimum requirement. 
-for that startup project, I had built the ORM and persistence and the Web Servlet which uses the ORM to persist the data to the database. 
+I had built the ORM and persistence and the Web Servlet which uses the ORM to persist the data to the database. 
 I used postman to test my ORM using Post, get, put, delete requests which implemented the CRUD operations. 
 I showed a demo of the project and postman to my teammates during our working on the project and helped them in understanding the different parts of the project, especially the postman. 
 I also included File Logging of exceptions and error handlings. 
