@@ -31,6 +31,8 @@ Email: varchar(20).
 * Delete a user
 * Update a user
 * All CRUD: Create, Read, Update and Delete
+* JDPC and Persistence
+* HTML Front End
 
 
 
