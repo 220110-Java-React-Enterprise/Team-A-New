@@ -81,7 +81,7 @@ The following technologies were implemented in our project.
 * Custom ORM for data persistence
 
 Deadline & Presentation
-* Finalized version of your project was to out team's p1 repository within the training originzation.
+* Finalized version of your project was pushed to out team's p1 repository within the training originzation.
 * we gave a brief (10 minute) presentation of our project. 
 
 To do:
