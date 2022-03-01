@@ -89,6 +89,8 @@ Minimum Viable Product
 * As a user, I can retrieve objects by invoking the proper endpoint (GET/Read).
 * As a user, I can delete objects by invoking the proper endpoint (DELETE/Delete).
 * As a user, I can retrieve all objects that belong to me. (transmit the user as part of the request header, and build a relation in the db in some way to tie the objects to the user)
+
+
 Tech Stack
 You should be employing the following technologies in your project.
 
