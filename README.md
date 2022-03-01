@@ -41,9 +41,9 @@ He also was able to use postman to query database.
 
 ## Getting Started
    
-navigate to the directy where the project needs to be cloned
-open Git Batch
-use the command: git clone "https://github.com/220110-Java-React-Enterprise/Team-A-New.git"
+* navigate to the directy where the project needs to be cloned
+* open Git Batch
+* use the command: git clone "https://github.com/220110-Java-React-Enterprise/Team-A-New.git"
 
 ## Project met Requirements
 
