@@ -1,9 +1,7 @@
-Team Members: 
-  -Ahmad Rawashdeh
-  -Brian Gardner 
-  -Danial Gordon
-  
-  
+# PROJECT NAME
+
+## Project Description
+
 Our project was about a web app which connects to a maria Database hosted on the Amazon Web Service cloud (AWS). 
 The database contained a Users Table with the following schema:
 ID: (Autoincrement)
@@ -11,7 +9,20 @@ Name: varchar(20),
 Password: varchar(20),
 Email: varchar(20).
 
-Even though we equally worked on the project, it helps to make it clear what role each of us took during the working on the project.
+## Technologies Used
+
+* AWS Mariah DB 
+* Back End Servelt 
+* Front End HTML 3 
+* Postman for testing
+* HTTP
+* ORM
+* Servlets
+* DevOps (bonus: automate it fully)
+* an API which exposes functionality to accept, deserialize, and persist objects in a database. Your API will be remotely accessible and accessed by Postman. A front-end GUI is not required for MVP. You will expose an API which will accept incoming GET, PUT, POST, and DELETE requests. We will use Postman to test and consume your API. Your API will depend on a custom ORM which will be written in it's own project, packaged as a .JAR file, and used as a dependency.
+
+
+## Features
 
 I took the initiative and started my part by building a project that meets the minimum requirement. 
 for that startup project, I had built the ORM and persistence and the Web Servlet which uses the ORM to persist the data to the database. 
@@ -28,35 +39,19 @@ Danial, helped in the overall discussion with his comments and valuable insight 
 but he was able to catch up with us and he successfully tested a project of his own to keep with the overall work of the project. 
 He also was able to use postman to query database.  
 
-though I don't like to explicitly state it, and even with my teammate acknowledgement and encouragement, for some time I was a head in the project 
-and led the project into its final version.  However, I wouldn’t have done it with my valuable team who amazed me by their great work and skills.
+## Getting Started
+   
+navigate to the directy where the project needs to be cloned
+open Git Batch
+use the command: git clone "https://github.com/220110-Java-React-Enterprise/Team-A-New.git"
 
-Also, we had reached Kyle for one problem in pushing to repository and he helped us in that and in following the right steps in importing a jar file. 
-
-below is the given requirement of project 1. 
-_____________________________________________________________________________________________________________________________________________
-
-
-Project 1
-Description
-Your next project will build upon the concepts from project 0, adding the following topics:
-
-HTTP
-ORM
-Servlets
-DevOps (bonus: automate it fully)
-Project 1:
-You will be building an API which exposes functionality to accept, deserialize, and persist objects in a database. Your API will be remotely accessible and accessed by Postman. A front-end GUI is not required for MVP. You will expose an API which will accept incoming GET, PUT, POST, and DELETE requests. We will use Postman to test and consume your API. Your API will depend on a custom ORM which will be written in it's own project, packaged as a .JAR file, and used as a dependency.
+## Project met Requirements
 
 Part 1 - Custom ORM:
 You will develop a custom ORM which uses reflection to dynamically build CRUD functionality without being aware of the structure/schema beforehand. This should abstract all JDBC and persistence logic away from the other part of the project. Your ORM is a dependency to be utilized by the other part of the project.
 
 Part 2 - Web Service:
 You will create your own web service used to store, manipulate, and retrieve objects in response to HTTP requests. Your service will be remotely available on AWS, and will utilize your ORM as a dependency. You will expose an API using Java servlets that allow us to manipulate the objects as resources. You will decide on what sort of resources your service can handle. Make up some sort of service, use your imagination, and design the resources that you would store. Example: An airline microservice that persists data about customers. It doesn't need to worry about aircraft or billing, it's just persisting and recalling user POJOs to suport some other application.
-
-You will be expected to complete the minimum viable product by the deadline and give a brief presentation demonstrating your project and answering questions from the QC team.
-
-This project will be done in teams of 2-3 members that will be assigned when we begin.
 
 Minimum Requirements
 Proper use of OOP principles
@@ -95,3 +90,13 @@ Finalized version of your project must be pushed to your team's p1 repository wi
 Presentation Showcase (Due Date): Thursday, Feburary 10th 2022, 9:00 AM CDT.
 You will give a brief (10 minute) presentation of your project. Be prepared to answer questions about your work from the QC team.
 Your work MUST BELONG TO YOUR TEAM. Collaboration is allowed and encouraged, but at the end of the project each team member must have an excellent understanding of every line of code in your project and be able to answer questions about any part of it.
+
+
+## Contributors
+
+Team Members: 
+  * Ahmad Rawashdeh
+  * Brian Gardner 
+  * Danial Gordon
+  
+
