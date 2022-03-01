@@ -54,40 +54,43 @@ Part 2 - Web Service:
 You will create your own web service used to store, manipulate, and retrieve objects in response to HTTP requests. Your service will be remotely available on AWS, and will utilize your ORM as a dependency. You will expose an API using Java servlets that allow us to manipulate the objects as resources. You will decide on what sort of resources your service can handle. Make up some sort of service, use your imagination, and design the resources that you would store. Example: An airline microservice that persists data about customers. It doesn't need to worry about aircraft or billing, it's just persisting and recalling user POJOs to suport some other application.
 
 Minimum Requirements
-Proper use of OOP principles
-CRUD operations are supported for at least 2 types of objects.
-Communication is done with HTTP exchanges, and resources are transmitted as JSON in request/response bodies.
-JDBC and persistence logic should all be part of your ORM which abstracts this away from the rest of the application.
-Documentation (all classes and methods have adequate Javadoc comments)
-All Exceptions are caught and logged to a file
-Bonus Features
-Basic HTML/CSS/JS front end to consume API
-ORM can build foreign key relations according to object references.
-ORM can design schema on the fly.
-Automated DevOps CI/CD pipeline to build and deploy project
-Adequate unit test line coverage for service-layer methods(Test as much as possible, ask trainer if unsure)
-Object Store
+* Proper use of OOP principles
+* CRUD operations are supported for at least 2 types of objects.
+* Communication is done with HTTP exchanges, and resources are transmitted as JSON in request/response bodies.
+* JDBC and persi* stence logic should all be part of your ORM which abstracts this away from the rest of the application.
+* Documentation (all classes and methods have adequate Javadoc comments)
+* All Exceptions are caught and logged to a file
+ 
+ Bonus Features
+* Basic HTML/CSS/JS front end to consume API
+* ORM can build foreign key relations according to object references.
+* ORM can design schema on the fly.
+* Automated DevOps CI/CD pipeline to build and deploy project
+* Adequate unit test line coverage for service-layer methods(Test as much as possible, ask trainer if unsure)
+* Object Store
+
 These are user stories to describe the web service. This is a remotely accessible storage service for persisting and retrieving objects/resources over the internet.
 
 Minimum Viable Product
-As a user, I store JSON objects by invoking the proper endpoint (POST/Create).
-As a user, I can change objects by invoking the proper endpoint (PUT/Update).
-As a user, I can retrieve objects by invoking the proper endpoint (GET/Read).
-As a user, I can delete objects by invoking the proper endpoint (DELETE/Delete).
-As a user, I can retrieve all objects that belong to me. (transmit the user as part of the request header, and build a relation in the db in some way to tie the objects to the user)
+* As a user, I store JSON objects by invoking the proper endpoint (POST/Create).
+* As a user, I can change objects by invoking the proper endpoint (PUT/Update).
+* As a user, I can retrieve objects by invoking the proper endpoint (GET/Read).
+* As a user, I can delete objects by invoking the proper endpoint (DELETE/Delete).
+* As a user, I can retrieve all objects that belong to me. (transmit the user as part of the request header, and build a relation in the db in some way to tie the objects to the user)
 Tech Stack
 You should be employing the following technologies in your project.
 
-Java 8
-HTTP
-Servlets
-Apache Maven for dependencies and project management
-Git & Github for version control
-MariaDB deployed on AWS RDS for data persistence
-Custom ORM for data persistence
+* Java 
+* HTTP
+* Servlets
+* Apache Maven for dependencies and project management
+* Git & Github for version control
+* MariaDB deployed on AWS RDS for data persistence
+* Custom ORM for data persistence
+
 Deadline & Presentation
-Finalized version of your project must be pushed to your team's p1 repository within the training originzation by 9:00 AM Central time on the date of the presentation showcase. Commits after that time will not be considered. The most recent commit submitted before that time will be the version of the project that is graded.
-Presentation Showcase (Due Date): Thursday, Feburary 10th 2022, 9:00 AM CDT.
+* Finalized version of your project must be pushed to your team's p1 repository within the training originzation by 9:00 AM Central time on the date of the presentation showcase. Commits after that time will not be considered. The most recent commit submitted before that time will be the version of the project that is graded.
+* Presentation Showcase (Due Date): Thursday, Feburary 10th 2022, 9:00 AM CDT.
 You will give a brief (10 minute) presentation of your project. Be prepared to answer questions about your work from the QC team.
 Your work MUST BELONG TO YOUR TEAM. Collaboration is allowed and encouraged, but at the end of the project each team member must have an excellent understanding of every line of code in your project and be able to answer questions about any part of it.
 
