@@ -29,6 +29,10 @@ Email: varchar(20).
 * Get all registered Users Information
 * Get one user info
 * Delete a user
+* Update a user
+* All CRUD: Create, Read, Update and Delete
+
+
 
 
 I had built the ORM and persistence and the Web Servlet which uses the ORM to persist the data to the database. 
