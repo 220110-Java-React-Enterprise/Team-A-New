@@ -33,39 +33,17 @@ Email: varchar(20).
 * All CRUD: Create, Read, Update and Delete
 * JDPC and Persistence
 * HTML Front End
-
-
-
-
-I had built the ORM and persistence and the Web Servlet which uses the ORM to persist the data to the database. 
-I used postman to test my ORM using Post, get, put, delete requests which implemented the CRUD operations. 
-I showed a demo of the project and postman to my teammates during our working on the project and helped them in understanding the different parts of the project, especially the postman. 
-I also included File Logging of exceptions and error handlings. 
-
-in the meantime, Brian was trusted in building another ORM which used Reflection and Annotations to persists any object. 
-His ORM also carried out CRUD operations (Create, Read, Update, and Delete) and He tested his ORM and then I have integrated it to my Web Servlet because it uses Reflection. 
-for that we had to work on the interface (methods) of his ORM jar file and got it to be used/invoked successfully from my servlets. 
-He also helped implementing and connecting an html page to the ORM and database. Something I had set up as one goal of our project (bonus feature). 
-
-Danial, helped in the overall discussion with his comments and valuable insight during the project time. He had to leave for his other job with the National Guard, 
-but he was able to catch up with us and he successfully tested a project of his own to keep with the overall work of the project. 
-He also was able to use postman to query database.  
-
-## Getting Started
-   
-* navigate to the directy where the project needs to be cloned
-* open Git Batch
-* use the command: git clone "https://github.com/220110-Java-React-Enterprise/Team-A-New.git"
+* Backend Servelt 
 
 ## Project met Requirements
 
 Part 1 - Custom ORM:
-You will develop a custom ORM which uses reflection to dynamically build CRUD functionality without being aware of the structure/schema beforehand. This should abstract all JDBC and persistence logic away from the other part of the project. Your ORM is a dependency to be utilized by the other part of the project.
+we developed a custom ORM which uses reflection to dynamically build CRUD functionality without being aware of the structure/schema beforehand. This abstracted all JDBC and persistence logic away from the other part of the project. Your ORM is a dependency to be utilized by the other part of the project.
 
 Part 2 - Web Service:
-You will create your own web service used to store, manipulate, and retrieve objects in response to HTTP requests. Your service will be remotely available on AWS, and will utilize your ORM as a dependency. You will expose an API using Java servlets that allow us to manipulate the objects as resources. You will decide on what sort of resources your service can handle. Make up some sort of service, use your imagination, and design the resources that you would store. Example: An airline microservice that persists data about customers. It doesn't need to worry about aircraft or billing, it's just persisting and recalling user POJOs to suport some other application.
+we have created our own web service used to store, manipulate, and retrieved objects in response to HTTP requests. 
 
-Minimum Requirements
+Minimum Requirements met:
 * Proper use of OOP principles
 * CRUD operations are supported for at least 2 types of objects.
 * Communication is done with HTTP exchanges, and resources are transmitted as JSON in request/response bodies.
@@ -107,6 +85,31 @@ Deadline & Presentation
 * Presentation Showcase (Due Date): Thursday, Feburary 10th 2022, 9:00 AM CDT.
 You will give a brief (10 minute) presentation of your project. Be prepared to answer questions about your work from the QC team.
 Your work MUST BELONG TO YOUR TEAM. Collaboration is allowed and encouraged, but at the end of the project each team member must have an excellent understanding of every line of code in your project and be able to answer questions about any part of it.
+
+To do:
+* host and deploy the website on AWS. 
+
+
+## more about the project
+I built the ORM and persistence and the Web Servlet which uses the ORM to persist the data to the database. 
+I used postman to test my ORM using Post, get, put, delete requests which implemented the CRUD operations. 
+I showed a demo of the project and postman to my teammates during our working on the project and helped them in understanding the different parts of the project, especially the postman. 
+I also included File Logging of exceptions and error handlings. 
+
+in the meantime, Brian was trusted in building another ORM which used Reflection and Annotations to persists any object. 
+His ORM also carried out CRUD operations (Create, Read, Update, and Delete) and He tested his ORM and then I have integrated it to my Web Servlet because it uses Reflection. 
+for that we had to work on the interface (methods) of his ORM jar file and got it to be used/invoked successfully from my servlets. 
+He also helped implementing and connecting an html page to the ORM and database. Something I had set up as one goal of our project (bonus feature). 
+
+Danial, helped in the overall discussion with his comments and valuable insight during the project time, and he successfully tested a project of his own to keep with the overall work of the project. He also was able to use postman to query database.  
+
+
+
+## Getting Started
+   
+* navigate to the directy where the project needs to be cloned
+* open Git Batch
+* use the command: git clone "https://github.com/220110-Java-React-Enterprise/Team-A-New.git"
 
 
 ## Contributors
