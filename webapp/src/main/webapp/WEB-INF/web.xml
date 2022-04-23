@@ -53,7 +53,7 @@
      -->
     <servlet>
         <servlet-name>dataServlet</servlet-name>
-        <servlet-class>DataServlet</servlet-class>
+        <servlet-class>servlet.DataServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>dataServlet</servlet-name>

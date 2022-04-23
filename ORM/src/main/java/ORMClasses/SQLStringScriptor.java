@@ -1,4 +1,4 @@
-import java.util.List;
+package ORMClasses;
 
 //Class that contains methods to create Strings to define PreparedStatements with
 public class SQLStringScriptor {

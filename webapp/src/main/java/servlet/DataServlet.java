@@ -1,14 +1,10 @@
 package servlet;
 
-//import DAOs.DataDAO;
-
-//import DAOs.UsersDAO;
 
 import DAOs.UsersDAO;
+import ORMClasses.Repository;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import servlet.MyClass2;
 import utils.FileLogger;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -19,7 +15,7 @@ import java.io.InputStream;
 import java.util.Iterator;
 import java.util.List;
 
-//import DAOs.*;
+
 
 public class DataServlet extends HttpServlet {
     //UsersDataStore ds = new UsersDataStore();

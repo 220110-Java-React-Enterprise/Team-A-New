@@ -1,0 +1,6 @@
+Annotations\Entity.class
+Annotations\Setter.class
+Annotations\FakeConstructor.class
+Annotations\PrimaryKey.class
+Annotations\Property.class
+Annotations\Getter.class

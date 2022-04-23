@@ -1,3 +1,5 @@
+package ORMClasses;
+
 import Annotations.PrimaryKey;
 
 import java.lang.reflect.Method;
@@ -37,7 +39,7 @@ public class Table {
         this.fakeConstructor = fakeConstructor;
     }
 
-    //Method to return a Column object from the columns list with given index
+    //Method to return a ORMClasses.Column object from the columns list with given index
     public Column get(int index) {
         return this.columns.get(index);
     }
@@ -133,7 +135,7 @@ public class Table {
         return -1;
     }
 
-    //Method to retrieve Column containing field with primary key annotation
+    //Method to retrieve ORMClasses.Column containing field with primary key annotation
     public Column getPrimaryKeyField() {
         return this.get(getPrimaryKeyFieldIndex());
     }
@@ -147,7 +149,7 @@ public class Table {
     @Override
     public String toString() {
         //Create string to be returned
-        StringBuilder tableString = new StringBuilder("Table \"" + this.getTableName() + "\"");
+        StringBuilder tableString = new StringBuilder("ORMClasses.Table \"" + this.getTableName() + "\"");
 
         //Iterate through the list of columns in this table and add field information to string
         for (Column c : this.columns) {
